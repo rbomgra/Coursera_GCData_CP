@@ -1,9 +1,8 @@
 ==================================================================
-Coursera Getting and Cleaning Data Course Project 
-Version 1.0
+## Coursera Getting and Cleaning Data Course Project 
+# Version 1.0
 ==================================================================
-Roberto Bombín Granado
-rbomgra@gmail.com
+Roberto Bombín Granado (rbomgra@gmail.com)
 ==================================================================
 
 This repo contains this information: 
