@@ -1,8 +1,5 @@
 ==================================================================
 ## Coursera Getting and Cleaning Data Course Project 
-# Version 1.0
-==================================================================
-Roberto Bombín Granado (rbomgra@gmail.com)
 ==================================================================
 
 This repo contains this information: 
@@ -11,3 +8,8 @@ This repo contains this information:
 * tidy_data.txt -> The result dataset.
 * CodBook.md -> Selected variables explanation and the steps taken to get the result dataset.
 * README.md 
+
+==================================================================
+
+Roberto Bombín Granado (rbomgra@gmail.com)
+==================================================================
