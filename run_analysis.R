@@ -33,17 +33,21 @@ test_tot <- cbind(test_set,test_label,test_subject)
 # 1.4.- Merging the test and train dataset
 total <- rbind(train_tot,test_tot)
 
-#############################################################################################
-# 2- Setting names to the total data set
 names(total) <- factor(append(as.character(t(features[,2])),c("Activity_Code","Subject")))
 
 #############################################################################################
-# 3.- Extracts only the measurements on the mean and standard deviation for each measurement.
+# 2.- Extracts only the measurements on the mean and standard deviation for each measurement.
 f1 <- agrep("mean()",features[,2])
 f2 <- agrep("std()",features[,2])
 fs <- sort(union(f1,f2))
 # 3.1.- Subseting the columns whit just mean() and str() metrics + Label + Subject columns
 clean_data <- total[,c(fs,c(562,563))]
+
+#############################################################################################
+# 3- Uses descriptive activity names to name the activities in the data set
+names1 <- gsub(pattern="\\(|\\)", names(clean_data), replacement="")
+names(clean_data) <- gsub(pattern="\\-", names1, replacement=".")
+
 
 #############################################################################################
 # 4.- Labeling the data set with descriptive activity names
