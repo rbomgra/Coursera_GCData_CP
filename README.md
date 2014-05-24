@@ -10,6 +10,3 @@ This repo contains this information:
 * README.md 
 
 ==================================================================
-
-Roberto Bombín Granado (rbomgra@gmail.com)
-==================================================================
